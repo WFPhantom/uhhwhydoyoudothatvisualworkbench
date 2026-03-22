@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.wfphantom.uhhwhydoyoudothatvisualworkbench.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["VisualWorkbenchJEIPluginMixin"],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
